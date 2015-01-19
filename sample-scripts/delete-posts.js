@@ -1,9 +1,10 @@
 var $http = require('http-as-promised'),
-    RSVP = require('rsvp');
+    RSVP = require('rsvp'),
+    _ = require('lodash');
 
 var baseUri = process.env.BASE_URI;
 
-$http({uri: baseUri + '/posts', method: 'GET'})
+$http({uri: baseUri + '/posts', method: 'GET', json:true})
     .spread(function (response, posts) {
 
         return RSVP.all(_.map(posts.posts, function(post) {

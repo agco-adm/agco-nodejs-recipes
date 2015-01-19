@@ -1,6 +1,7 @@
 var harvest = require('harvest'),
     RSVP = require('rsvp'),
-    woodman = require('woodman');
+    woodman = require('woodman'),
+    _ = require('lodash');
 
 var logger = woodman.getLogger('api');
 
