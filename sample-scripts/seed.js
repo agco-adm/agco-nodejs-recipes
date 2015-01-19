@@ -1,8 +1,5 @@
 var $http = require('http-as-promised');
 
-$http.debug = true;
-$http.request = require('request-debug')($http.request);
-
 var baseUri = process.env.BASE_URI;
 
 $http({
@@ -29,8 +26,6 @@ $http({
                 ]
             }
         });
-
-
     })
     .catch(function (e) {
         console.trace(e);
