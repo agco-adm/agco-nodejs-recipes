@@ -6,6 +6,9 @@ var options = {
     inflect: true
 };
 
+// define 2 resources
+// posts and comments
+// analogue to the examples used on jsonapi.org
 var harvestApp = harvest(options)
     .resource('post', {
         title: String
