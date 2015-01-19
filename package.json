@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "debug": "^2.1.1",
     "express-domain-middleware": "^0.1.0",
     "harvest": "agco-adm/harvest",
+    "lodash": "^2.4.1",
+    "rsvp": "^3.0.16",
     "woodman": "^1.1.0"
   },
   "devDependencies": {
