@@ -1,0 +1,14 @@
+{
+  "name": "agco-nodejs-recipes",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "express-domain-middleware": "^0.1.0",
+    "harvest": "agco-adm/harvest",
+    "woodman": "^1.1.0"
+  },
+  "devDependencies": {
+    "http-as-promised": "^0.1.0",
+    "request-debug": "^0.1.1"
+  }
+}
